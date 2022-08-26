@@ -21,7 +21,10 @@ pip install pycryptodome-test-vectors
 python -m Cryptodome.SelfTest
 </code></pre>  
 이 경우, 모든 모듈은 Cryptodome 패키지에 설치됩니다. 이전에 설치되어 있던 PyCrypto와 PyCryptodome가 서로 간섭하지 않습니다.  
+
 !주의  
 Windows에서 Python 2.7과 함께 PyCryptodome을 실행하려면, 먼저 [Microsoft Visual C++ 2015 재배포 가능 패키지](https://www.microsoft.com/ko-kr/download/details.aspx?id=48145)를 설치해야 합니다. Python 3을 사용하는 경우에는 필요하지 않습니다.  
+
 다양한 OS에서 C extension을 컴파일하기 위한 환경을 설정하는 방법과 GMP 라이브러리를 설치하는 방법은 아래에서 자세히 설명합니다.  
+
 [자몽티](https://github.com/jamongti)  
