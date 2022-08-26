@@ -10,11 +10,13 @@
 pip install pycryptodome
 '''
 
-이 경우 모든 모듈은 Crypto 패키지에 설치됩니다. 다음을 사용하여 올바르게 설치되었는지 테스트할 수 있습니다.
+이 경우 모든 모듈은 **Crypto** 패키지에 설치됩니다. 다음을 사용하여 올바르게 설치되었는지 테스트할 수 있습니다.
 
 '''
 pip install pycryptodome-test-vectors
 python -m Crypto.SelfTest
 '''
 
- - [자몽티](https://github.com/jamongti)
+서로 간섭하기 때문에 PyCrypto와 PyCryptodome을 동시에 설치는 것은 피해야합니다. 따라서 이 옵션은 전체 애플리케이션이 **virtualenv**에 있다고 확신하는 경우에만 권장합니다.
+
+[자몽티](https://github.com/jamongti)
