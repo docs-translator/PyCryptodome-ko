@@ -8,29 +8,29 @@
 
 <pre><code>
 pip install pycryptodome
-</code></pre>  
+</code></pre>
 
 이 경우 모든 모듈은 Crypto 패키지에 설치됩니다. 다음을 사용하여 설치되었는지 테스트할 수 있습니다.
 
 <pre><code>
 pip install pycryptodome-test-vectors
 python -m Crypto.SelfTest
-</code></pre>  
+</code></pre>
 
 서로 간섭하기 때문에 PyCrypto와 PyCryptodome을 동시에 설치하면 안됩니다. 따라서 이 옵션은 전체 어플리케이션이 virtualenv에 있다고 확신하는 경우에만 권장합니다.  
 
 ### 2. 이전에 설치된 PyCrypto가 라이브러리와 나누어져 있을 때, 다음과 같이 설치할 수 있습니다.
 
-<pre><code>  
+<pre><code>
 pip install pycryptodomex
 </code></pre>
 
 다음을 사용하여 설치되었는지 테스트할 수 있습니다.
 
 <pre><code>
-pip install pycryptodome-test-vectors  
+pip install pycryptodome-test-vectors
 python -m Cryptodome.SelfTest
-</code></pre>  
+</code></pre>
 
 이 경우, 모든 모듈은 Cryptodome 패키지에 설치됩니다. 이전에 설치되어 있던 PyCrypto와 PyCryptodome가 서로 간섭하지 않습니다.  
 
