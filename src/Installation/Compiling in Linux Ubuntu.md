@@ -1,0 +1,34 @@
+# Linux Ubuntu에서 컴파일하는 방법  
+
+원문 : [https://www.pycryptodome.org/src/installation#compiling-in-linux-ubuntu](https://www.pycryptodome.org/src/installation#compiling-in-linux-ubuntu)
+
+Crypto 패키지에 설치하려면, pycryptodomex를 pycryptodome으로 바꾸십시오.  
+
+### Python 2.x인 경우:  
+
+<code>
+$ sudo apt-get install build-essential python-dev  
+$ pip install pycryptodomex  
+$ pip install pycryptodome-test-vectors  
+$ python -m Cryptodome.SelfTest  
+</code>  
+
+### Python 3.x인 경우:  
+
+<code>
+$ sudo apt-get install build-essential python3-dev  
+$ pip install pycryptodomex  
+$ pip install pycryptodome-test-vectors  
+$ python3 -m Cryptodome.SelfTest  
+</code>  
+
+### PyPy인 경우:  
+
+<code>  
+$ sudo apt-get install build-essential pypy-dev  
+$ pip install pycryptodomex  
+$ pip install pycryptodome-test-vectors  
+$ pypy -m Cryptodome.SelfTest  
+</code>  
+
+[자몽티](https://github.com/jamongti)  
