@@ -6,29 +6,29 @@ Crypto 패키지에 설치하려면, pycryptodomex를 pycryptodome으로 바꾸�
 
 ### Python 2.x인 경우:  
 
-<code>
+<pre><code>
 $ sudo apt-get install build-essential python-dev  
 $ pip install pycryptodomex  
 $ pip install pycryptodome-test-vectors  
 $ python -m Cryptodome.SelfTest  
-</code>  
+</code></pre>  
 
 ### Python 3.x인 경우:  
 
-<code>
+<pre><code>
 $ sudo apt-get install build-essential python3-dev  
 $ pip install pycryptodomex  
 $ pip install pycryptodome-test-vectors  
 $ python3 -m Cryptodome.SelfTest  
-</code>  
+</code></pre>  
 
 ### PyPy인 경우:  
 
-<code>  
+<pre><code>  
 $ sudo apt-get install build-essential pypy-dev  
 $ pip install pycryptodomex  
 $ pip install pycryptodome-test-vectors  
 $ pypy -m Cryptodome.SelfTest  
-</code>  
+</code></pre>  
 
 [자몽티](https://github.com/jamongti)  
