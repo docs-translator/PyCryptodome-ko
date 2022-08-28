@@ -4,7 +4,7 @@
 
 Crypto 패키지에 설치하려면, pycryptodomex를 pycryptodome으로 바꾸십시오.  
 
-### Python 2.x인 경우:  
+### Python 2.x버전인 경우:  
 
 <pre><code>
 $ sudo apt-get install build-essential python-dev  
@@ -13,7 +13,7 @@ $ pip install pycryptodome-test-vectors
 $ python -m Cryptodome.SelfTest  
 </code></pre>  
 
-### Python 3.x인 경우:  
+### Python 3.x버전인 경우:  
 
 <pre><code>
 $ sudo apt-get install build-essential python3-dev  
