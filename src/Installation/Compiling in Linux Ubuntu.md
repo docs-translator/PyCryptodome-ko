@@ -2,7 +2,7 @@
 
 원문 : [https://www.pycryptodome.org/src/installation#compiling-in-linux-ubuntu](https://www.pycryptodome.org/src/installation#compiling-in-linux-ubuntu)
 
-!주의
+!주의  
 Crypto 패키지에 설치하려면, pycryptodomex를 pycryptodome으로 바꾸십시오.  
 
 ### Python 2.x버전인 경우:  
